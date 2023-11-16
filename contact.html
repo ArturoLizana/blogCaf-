@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Bad+Script&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/normalizer.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="àpropos.html" class="navegacion__enlace">À propos</a>
+                    <a href="cours.html" class="navegacion__enlace">Cours</a>
+                    <a href="contact.html" class="navegacion__enlace">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café avec des conseils et des cours</h2>
+            <p class="no-margin header__texto--subtitle">apprenez des experts avec les meilleures recttes et conseils
+            </p>
+
+        </div>
+    </header>
+
+    <main class="contenedor">
+        <h3 class="centrar-text">Contact</h3>
+        <div class="contact-bg"></div>
+
+        <form class="formulario">
+            <div class="campo">
+                <label class="campo__label" for="nombre">Nom</label>
+                <input class="campo__field" type="text" placeholder="Nom" id="nombre">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="email">E-mail</label>
+                <input class="campo__field" type="email" placeholder="e-mail" id="email">
+            </div>
+            <div class="campo">
+                <label class="campo__label" for="message">Message</label>
+                <textarea class="campo__field campo__field--textarea" name="" id="message"></textarea>
+            </div>
+            
+            <div class="campo">
+                <input type="submit" value="Envoyer" class="boton boton--primario">
+            </div>
+                
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="àpropos.html" class="navegacion__enlace">À propos</a>
+                    <a href="cours.html" class="navegacion__enlace">Cours</a>
+                    <a href="contact.html" class="navegacion__enlace">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>

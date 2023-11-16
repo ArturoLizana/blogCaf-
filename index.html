@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlogDeCafe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="description" content="Site d'internet blog de café">
+    
+    <!-- Prefetch -->
+    <link rel="Prefetch" href="/àpropos.html" as="document">
+    
+    <!-- Preload-->
+    <link rel="Preload" href="/css/normalizer.css" as="styles">
+    <link rel="stylesheet" href="/css/normalizer.css">
+
+    <link rel="Preload" href="/css/styles.css" as="styles">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="Preload" href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Bad+Script&display=swap" crossorigin="crossorigin" as="font">
+    <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Bad+Script&display=swap"
+        rel="stylesheet">
+
+    <link rel="Preload" href="/img/blog1.jpg" as="image">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="àpropos.html" class="navegacion__enlace">À propos</a>
+                    <a href="cours.html" class="navegacion__enlace">Cours</a>
+                    <a href="contact.html" class="navegacion__enlace">Contact</a>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header__texto">
+            <h2 class="no-margin">Blog de café avec des conseils et des cours</h2>
+            <p class="no-margin header__texto--subtitle">apprenez des experts avec les meilleures recttes et conseils</p>
+
+        </div>
+    </header>
+
+    <div class="contenedor contenido-principal">
+        <main class="blog">
+            <h3>Notre Blog</h3>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="/img/blog1.webp" type="image/webp">
+                        <img loading="lazy" src="/img/blog1.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h3 class="no-margin">Types de grains de café</h3>
+                    <p>Chaque palais mérite un type de café et un breuvage sur mesure. Riche de caractéristiques et
+                        d’arômes spécifiques, tout grain de café porte sa propre signature. C’est pourquoi chaque
+                        mélange (fait d’Arabica et de Robusta) et chaque fève doivent être choisis et réalisés afin de
+                        transmettre des émotions et une expérience unique à celui qui le déguste.</p>
+                    <p class="no-margin">
+                        Selon sa région d’origine et ses méthodes de culture, le café présente des caractéristiques
+                        gustatives spécifiques. L’altitude, la température et le type de sol ne sont pas étrangers à son
+                        goût. Quant à la torréfaction, elle apporte la touche finale en développant davantage les
+                        nuances aromatiques et le goût du café.
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Lire plus</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="/img/blog2.webp" type="image/webp">
+                        <img loading="lazy" src="/img/blog2.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h3 class="no-margin">Trois recettes de café </h3>
+                    <h4 class="no-margin">Espresso</h4>
+                    <p>L'espresso (et non pas expresso !) est un type de café célèbre d'Italie. Le produit final est un café épais avec une mousse crémeuse sur le dessus. En raison de son épaisseur et de son taux élevé de caféine par unité, il sert souvent de base pour d'autres boissons.</p>
+                    <h4 class="no-margin">Ristretto</h4>
+                    <p class="no-margin">
+                        Il s'agit d'un Espresso préparé avec la même quantité de café mais la moitié de la quantité d'eau.
+                    </p>
+                    <h4 class="no-margin">Lungo</h4>
+                    <p class="no-margin">
+                        Le Lungo, ou café allongé, est l'opposé au Ristretto. Cette boisson est faite avec plus d'eau.
+                    </p>
+                    <a href="entrada.html" class="boton boton--primario">Lire plus</a>
+                </div>
+            </article>
+
+            <article class="entrada">
+                <div class="entrada__imagen">
+                    <picture>
+                        <source loading="lazy" srcset="/img/blog3.webp" type="image/webp">
+                        <img loading="lazy" src="/img/blog3.jpg" alt="imagen blog">
+                    </picture>
+                    
+                </div>
+
+                <div class="entrada__contenido">
+                    <h3 class="no-margin">Les beienfaits du café</h3>
+                    <p>Boire du café quotidiennement peut vous apporter de nombreux bénéfices !
+
+                        Il peut être utilisé dans de nombreuses situations : donner plus d'énergie pour travailler, en cosmétique pour les cheveux ou encore le visage grâce au marc de café, pour prendre une pause-café ou tout simplement pour se faire plaisir  avec un café gourmand.
+                        
+                        Découvrez 46 raisons de boire du café, que vous préfériez le café au lait, un expresso ou encore le café allongé ; vous trouverez une bonne raison de faire du café votre boisson favorite !</p>
+
+                    <a href="entrada.html" class="boton boton--primario">Lire plus</a>
+                </div>
+            </article>
+        </main>
+        <aside class="sidebar">
+            <h3>Nos cours et ateliers</h3>
+
+            <ul class="cours no-padding">
+                <li class="widget-cours">
+                    <h4 class="no-margin">Extraction et techniques du café</h4>
+                    <p class="widget-cours__label">Prix: <span class="widget-cours__info">Gratuit</span></p>
+                    <p class="widget-cours__label">Place: <span class="widget-cours__info">20</span></p>
+                    <a href="cours.html" class="boton boton--secundario">Plus d'informations sur nos cours</a>
+                </li>
+
+                <li class="widget-cours">
+                    <h4 class="no-margin">4 recettes de café</h4>
+                    <p class="widget-cours__label">Prix: <span class="widget-cours__info">Gratuit</span></p>
+                    <p class="widget-cours__label">Place: <span class="widget-cours__info">20</span></p>
+                    <a href="cours.html" class="boton boton--secundario">Plus d'informations sur nos cours</a>
+                </li>
+                
+            </ul>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <div class="barra">
+                <a class="logo" href="index.html">
+                    <h1 class="logo__nombre no-margin centrar-text">Blog<span class="logo__bold">DeCafé</span></h1>
+                </a>
+
+                <nav class="navegacion">
+                    <a href="àpropos.html" class="navegacion__enlace">À propos</a>
+                    <a href="cours.html" class="navegacion__enlace">Cours</a>
+                    <a href="contact.html" class="navegacion__enlace">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/modernizr.js"></script>
+</body>
+
+</html>
